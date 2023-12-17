@@ -1,2 +1,2 @@
-# flink-kafka-producer
-flink-kafka-producer
+# flink-kafka-string-datastream
+flink-kafka-string-datastream
