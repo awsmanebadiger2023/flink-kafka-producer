@@ -28,7 +28,7 @@ public class FlinkProducer {
                         .build()
                 ).setDeliveryGuarantee(DeliveryGuarantee.AT_LEAST_ONCE)
                 .build();
-        dataStream.print();
+        //dataStream.print();
         dataStream.sinkTo(sink);
         env.execute("FLINK PRODUCER");
     }
